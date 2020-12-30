@@ -38,4 +38,4 @@ def get_traped_rain_water_2(heights):
             right-=1
     return total_water        
 
-print(get_traped_rain_water_2([0, 1, 0, 2, 1, 0, 3, 1, 0, 1, 2]))    
+print(get_traped_rain_water_2([0,1,0,2,1,0,1,3,2,1,2,1]))    
