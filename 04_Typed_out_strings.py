@@ -28,7 +28,7 @@ def back_space_compare(str1,str2):
 
 
 # Optimized solution
-
+# O(n) Time | O(1) Space
 def  back_space_compare_2(S,T):
     p1,p2= len(S) - 1, len(T) -1
     while p1 >= 0 or p2 >= 0:
