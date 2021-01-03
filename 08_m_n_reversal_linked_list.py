@@ -1,23 +1,26 @@
+# O(n) Time | O(1) Space
+
 linked_list = {
 	'value':1,
-	'next':{
-	'value':2,
-	'next':{
-	'value':3,
-	'next':{
-	'value':4,
-	'next':{
-	'value':5,
-	'next':None
-	}
-	}
-	}
-	}
+	    'next':{
+			'value':2,
+			'next':{
+			'value':3,
+			'next':{
+			'value':4,
+			'next':{
+			'value':5,
+			'next':None
+			}
+			}
+			}
+			}
 }
 
 def reverse_between_m_n(head,m,n):
 	current_pos =1
 	currentNode =head
+	start =head
 	while current_pos < m:
 		start =currentNode
 		currentNode =currentNode['next']
