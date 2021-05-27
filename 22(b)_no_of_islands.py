@@ -1,5 +1,5 @@
 #Breadth first approach
-#O(m*n) Time | O(m*n) Space
+#O(m*n) Time | O(max(m,n)) Space
 def no_of_islands(matrix):
     sizes = []
     visited = [[False for value in row] for row in matrix]
