@@ -1,5 +1,5 @@
 #Depth First Search Approach
-#O(n^2) Time | O(n) Space
+#O(m*n) Time | O(m*n) Space
 def no_of_islands(matrix):
     noOfIslands=0
     for i in range(len(matrix)):
