@@ -1,3 +1,4 @@
+#O(n) Time | O(n) Space
 directions = [[-1,0],[1,0],[0,-1],[0,1]]
 def oranges_rotting(matrix):
     EMPTY,FRESH,ROTTEN=0,1,2
