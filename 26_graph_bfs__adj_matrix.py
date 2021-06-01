@@ -10,7 +10,7 @@ adjacencyMatrix = [
   [0, 0, 1, 0, 0, 0, 0, 0, 0]
 ]
 
-def DFS(graph):
+def BFS(graph):
     seen ={}
     queue = [0]
     values = []
